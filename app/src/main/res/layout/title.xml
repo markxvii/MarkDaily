@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v7.widget.Toolbar
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:id="@+id/title_tool_bar"
+    app:layout_collapseMode="pin"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:text="首页"/>
+</android.support.v7.widget.Toolbar>
+<android.support.design.widget.TabLayout
+android:layout_width="match_parent"
+android:layout_height="?attr/actionBarSize"
+android:background="@color/colorPrimary"
+android:id="@+id/tab_layout"
+app:tabIndicatorColor="#FFF"
+app:tabSelectedTextColor="#FFF"
+app:tabTextColor="#eaeaea"/>
+</android.support.design.widget.AppBarLayout>

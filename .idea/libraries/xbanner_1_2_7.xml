@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="xbanner-1.2.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/cec939723ff0f51d797125359e72251080e4619d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/cec939723ff0f51d797125359e72251080e4619d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xhb/xbanner/1.2.7/ba81c89193585aaa5c659262d03290da46bd707a/xbanner-1.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

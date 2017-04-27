@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:title="123">
+
+    <PreferenceCategory
+        android:title="基本设置">
+        <CheckBoxPreference
+            android:key="is_load_img"
+            android:summary="不加载图片"
+            android:title="省流量模式"/>
+        <Preference
+            android:key="clear"
+            android:summary="删除已缓存的文章内容及图片"
+            android:title="清空缓存" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="其他说明">
+        <Preference
+            android:summary="v1.0"
+            android:title="当前版本" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

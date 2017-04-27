@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="软件说明">
+        <Preference
+            android:key="daxiang"
+            android:summary="一个仅供个人交流学习的开源日报软件，后期会继续完善客户端，制作和api收集仅凭个人爱好，如有侵权联系删除"
+            android:title="“大象”"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="作者信息">
+        <Preference
+            android:key="email"
+            android:summary="markxvii@outlook.com"
+            android:title="我的邮箱，点击以发送邮件" />
+        <Preference
+            android:summary="https://github.com/markxvii"
+            android:title="我的github，点击以查看" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://github.com/markxvii"
+                android:mimeType="text/html" />
+        </Preference>
+        <Preference
+            android:summary="happylife250"
+            android:title="我的微信" />
+    </PreferenceCategory>
+</PreferenceScreen>

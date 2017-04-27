@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marc.elephant.fragment.WelcomeActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/welcome_image"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_gravity="bottom"
+    android:background="#8000"/>
+<ImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@drawable/elephant"
+    android:layout_gravity="left|bottom"
+    android:layout_margin="20dp"
+    android:id="@+id/elephant"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="40sp"
+    android:textColor="#FFF"
+    android:text="大象"
+    android:id="@+id/ele_text"
+    android:layout_marginLeft="95dp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="bottom"/>
+</FrameLayout>
